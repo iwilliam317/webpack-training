@@ -1,3 +1,6 @@
-const logger = require('./logger');
+import Person from './person';
 
-logger.info('Logging from index.js');
+const william = new Person('william');
+
+console.log(william.getInfo());
+
