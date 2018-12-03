@@ -1,6 +1,5 @@
-const evenNumbers = [1, 3, 5];
+import 'react';
 
-const clone = numbers => [...numbers];
-
-console.log(clone(evenNumbers), evenNumbers);
-
+const Hello = () => (
+    <h1>Hello!</h1>
+)
