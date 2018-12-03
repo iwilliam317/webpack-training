@@ -1,6 +1,6 @@
-import Person from './person';
+const evenNumbers = [1, 3, 5];
 
-const william = new Person('william');
+const clone = numbers => [...numbers];
 
-console.log(william.getInfo());
+console.log(clone(evenNumbers), evenNumbers);
 
